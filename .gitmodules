@@ -1,0 +1,3 @@
+[submodule "blind_watermark"]
+	path = blind_watermark
+	url = git@github.com:guofei9987/blind_watermark.git
