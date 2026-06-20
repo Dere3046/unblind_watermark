@@ -16,6 +16,4 @@ jobs:
 
       - run: pip install numpy opencv-python pywavelets pytest
 
-      - run: pip install ./blind_watermark
-
-      - run: python -m pytest uw/tests -v
+      - run: PYTHONPATH=blind_watermark python -m pytest uw/tests -v
